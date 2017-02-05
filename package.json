@@ -1,6 +1,6 @@
 {
   "name": "sequelize-multi-tenant-enhancer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Multitenancy enhancer for Sequelize",
   "main": "index.js",
   "module": "index.js",
