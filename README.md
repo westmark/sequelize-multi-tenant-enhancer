@@ -2,6 +2,12 @@
 
 A Proxy based enhancer function which enables schema based multi tenancy in Sequelize.
 
+## Installation
+
+```
+yarn add sequelize-multi-tenant-enhancer
+```
+
 ## Caveats
 
 * Requires Proxy support
