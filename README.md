@@ -21,7 +21,8 @@ yarn add sequelize-multi-tenant-enhancer
 const enhance = require( 'sequelize-multi-tenant' );
 
 const seq = someFunctionWhichInitializesTheDbAndDefinesAllModels();
-const clientA = seq.withSchema( 'client-a' );
+const enhancedSeq = enhance( seq );
+const clientA = enhancedSeq.withSchema( 'client-a' );
 clientA.models.Foobars.findAll()
   .then( ( results ) => {
     ...
